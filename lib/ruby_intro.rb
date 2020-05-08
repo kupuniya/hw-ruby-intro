@@ -11,7 +11,6 @@ def max_2_sum arr
 end
 
 def sum_to_n? arr, n
-  #arr.product(arr).any? {|couple| sum(couple) == n}
   arr.each{
       |val_1| 
         arr.reject{|val| val == val_1}.each{
